@@ -1,0 +1,22 @@
+.container-container{
+    justify-items: center;
+    margin-bottom: 1%;
+}
+.item-container{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+    width: 98%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.item-quantity{
+}
+.cart-item-image{
+    max-height: 75px;
+    display: inline-block;
+}
+.cart-item-info{
+    display: inline-block;
+}

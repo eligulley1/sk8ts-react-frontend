@@ -1,0 +1,28 @@
+/* Polaroid Style */
+.polaroid {
+    background: white;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #ddd; /* Outline */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Shadow */
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.polaroid img {
+    width: 100%;
+    height: auto;
+}
+
+.polaroid:hover {
+    transform: scale(1.05);
+}
+
+.caption {
+    background: white;
+    padding: 10px;
+    font-family: 'Courier New', monospace;
+    border-top: 2px solid #ddd;
+    font-size: 14px;
+}
